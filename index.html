@@ -1,0 +1,132 @@
+<html>
+My Website
+</html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Simple Demo</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<style type="text/css">	
+	p{
+	  font-family: palatino;
+
+	}
+
+	#myFirstDiv {
+
+	  text-align: center;
+	  
+	  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROkd4gg4vNM6S1lj1mxKEf3BH8_YMgu9pmM86oPytTZs9yMS15");
+	  background-position: center;
+	  background-size: cover;
+	  color: Black;
+	  margin: 10px;
+	  padding: 10px;
+	  font-family: sans-serif;
+	  border-radius: 50px;
+	  padding: 20px;
+	  font-size: 15px
+
+	}
+
+	input[type="submit"]{
+	      background: red;
+	      color: white;
+	}
+	img {
+	  height: 50px;
+	  width: 50px;
+	 }
+
+	 p {
+	   font-size: 20px;
+	   padding: 10px;
+	   color: white;
+	   margin: 10px
+	   text-align: justify;
+	  }
+	  h3 {
+	   font-size: 20px;
+	   padding: 10px;
+	   color: white;
+	   margin: 10px
+	   text-align: justify;
+	  }
+
+</style>
+
+
+</head>
+
+
+<body>
+
+<div id='myFirstDiv'>
+<h1>
+Welcome to R/C Extreme
+</h1>
+<h3 class='nottestClass'>
+Radio Control Toys
+</h3>
+<p>
+Do you want to have your own first drone? We can send it to your home!
+</p>
+<ul>
+<li><img
+src='http://www.aerialmediapros.com/store/images/product/p/phantom-3-4k-quadcopter-with-4k-camera-and-3-axis-gimbal-512px-512px.jpg'><a href='http://www.dji.com/product/phantom-3-pro'>
+Phantom 3 with camera</a> - $35 USD <input type="checkbox" value ="text"/> 
+
+
+Qty <span
+id='myNumber'>1</span>
+  <button id= "addOne">Add 1
+  </button>
+  
+  <button id= "SubstractOne">Substract 1
+  </button>
+  
+  Total USD $ <span
+id='Total1'>0</span>
+  
+
+</li>
+
+
+</ul>
+
+<button id='submit'>
+
+Submit
+</button>
+<input type= "email" placeholder ="your email"></input>
+<button id='alert'>
+Special Discounts!
+</button>
+<p>
+Wanna know more? <a href='http://altigator.com/features-of-our-drones/'>
+Features of our drones</a>
+</p>
+
+</div>
+
+  <script src="JS/jquery.js"></script>
+
+
+  <script src="JS/script.js"></script>
+
+
+
+
+
+</body>
+</html>
